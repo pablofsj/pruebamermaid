@@ -1,8 +1,6 @@
 # pruebamermaid
 
-```
-mermaid
-
+```mermaid
 graph TD
     subgraph "Entorno del Cliente"
         A[Cliente / Navegador]
@@ -20,6 +18,4 @@ graph TD
     D -->|4. Datos| C
     C -->|5. Respuesta JSON| B
     B -->|6. Respuesta HTTP 200 OK| A
-
-
 ```
